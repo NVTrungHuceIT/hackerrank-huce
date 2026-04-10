@@ -6,6 +6,10 @@
 #include <cassert>
 using namespace std;
 
+class Student {
+    
+
+};
 // Write your Student class here
 
 int main() {
