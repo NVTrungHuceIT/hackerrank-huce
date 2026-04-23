@@ -5,8 +5,24 @@ using namespace std;
 
 class Student {
     private:
-        
-}
+        int get_age, get_standard;
+        string get_first_name, get_last_name;    
+    
+    public: 
+        int set_age (int age){
+            get_age = age;
+            return get_age;
+        }
+        int set_standard (int standard){
+            get_standard = standard;
+        }
+        string set_first_name (string first_name){
+            get_first_name = first_name;
+        }
+        string set_last_name (string last_name) {
+            get_last_name = last_name;
+        }
+};
 
 int main() {
     int age, standard;
