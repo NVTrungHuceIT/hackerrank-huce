@@ -5,6 +5,11 @@ using namespace std;
 
 class Student {
     private:
+
+    public:
+        void set_age(int age){
+            get_age = age;
+
         
 }
 
