@@ -4,12 +4,11 @@
 using namespace std;
 
 class Student {
-    private:
-        
+    public
 }
 
 int main() {
-    int age, standard;
+    i8nt age, standard;
     string first_name, last_name;
     
     cin >> age >> first_name >> last_name >> standard;
